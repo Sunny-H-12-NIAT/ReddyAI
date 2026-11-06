@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reddy\'s AI</string>
+    <string name="accessibility_service_label">Reddy\'s AI Screen Assistant</string>
+    <string name="accessibility_service_description">Allows Reddy\'s AI to read the screen and perform actions like tapping, typing and scrolling — needed for app automation features like ordering food. No data is sent off-device.</string>
+</resources>

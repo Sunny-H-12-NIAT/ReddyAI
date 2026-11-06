@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base theme — no ActionBar, transparent background for overlay activities -->
+    <style name="Theme.ReddysAI" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:statusBarColor">#0A0A0A</item>
+        <item name="android:navigationBarColor">#0A0A0A</item>
+    </style>
+
+    <!-- Splash screen theme applied to MainActivity before setContent -->
+    <style name="Theme.ReddysAI.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0A0A0A</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_round</item>
+        <item name="postSplashScreenTheme">@style/Theme.ReddysAI</item>
+    </style>
+
+    <!-- Payment alert — opaque full-screen, red tint, high priority feel -->
+    <style name="Theme.ReddysAI.PaymentAlert" parent="android:Theme.Material.NoActionBar.Fullscreen">
+        <item name="android:windowBackground">#0A0A0A</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:statusBarColor">#0A0A0A</item>
+    </style>
+
+</resources>
